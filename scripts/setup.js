@@ -10,18 +10,18 @@ const packageJSON = require('../package.json')
 const { name: projectName } = packageJSON
 
 // ensure setup hasn't already been run
-if (packageJSON['jbrowse-plugin'].name !== 'MyProject') {
-  console.log(
-    'Warning: It appears that setup has already been run. Terminating to avoid overwriting information.',
-  )
-  process.exit(1)
-}
+// if (packageJSON['jbrowse-plugin'].name !== 'MyProject') {
+//   console.log(
+//     'Warning: It appears that setup has already been run. Terminating to avoid overwriting information.',
+//   )
+//   process.exit(1)
+// }
 
 // 1. Change "name" in the "jbrowse-plugin" field to the name of your project (e.g. "MyProject")
 packageJSON['jbrowse-plugin'].name = projectName
 
 // 2. In the "scripts" field, replace the default name with the name of your project, prefixed with "JBrowsePlugin" in the "start" and "build" entries
-packageJSON.scripts.start = `tsdx watch --verbose --noClean --format umd --name JBrowsePlugin${projectName} --onFirstSuccess \"yarn serve --cors --listen 9000 .\""`
+packageJSON.scripts.start = `tsdx watch --verbose --noClean --format umd --name JBrowsePlugin${projectName} --onFirstSuccess "yarn serve --cors --listen 9000 ."`
 
 packageJSON.scripts.build = `tsdx build --format cjs,esm,umd --name JBrowsePlugin${projectName}`
 
@@ -44,13 +44,13 @@ writeJSON(jbrowseConfig, 'jbrowse_config.json')
 
 /* 
 ****************************
-Update badge in README
+Add badge in README
 ****************************
 */
 
 // Replace repo path for integration badge
 let README = readFile('README.md').split(/\r?\n/)
-README[0] = `jbrowse-plugin-template ![Integration](${packageJSON.repository.slice(
+README[0] = `# ${projectName} ![Integration](${packageJSON.repository.slice(
   0,
   -4,
 )}/workflows/Integration/badge.svg?branch=main)`

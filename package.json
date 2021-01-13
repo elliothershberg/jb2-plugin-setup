@@ -12,7 +12,8 @@
     "src"
   ],
   "scripts": {
-    "start": "tsdx watch --verbose --noClean --format umd --name JBrowsePluginjbrowse-plugin-setup --onFirstSuccess \"yarn serve --cors --listen 9000 .\"\"",
+    "setup": "node scripts/setup.js",
+    "start": "tsdx watch --verbose --noClean --format umd --name JBrowsePluginjbrowse-plugin-setup --onFirstSuccess \"yarn serve --cors --listen 9000 .\"",
     "build": "tsdx build --format cjs,esm,umd --name JBrowsePluginjbrowse-plugin-setup",
     "test": "tsdx test",
     "lint": "tsdx lint",
