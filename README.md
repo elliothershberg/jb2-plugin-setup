@@ -1,4 +1,4 @@
-# jbrowse-plugin-template
+![Integration](https://github.com/elliothershberg/jb2-plugin-setup/workflows/Integration/badge.svg?branch=main)
 
 > Template to quickly start a new JBrowse plugin
 
@@ -110,3 +110,4 @@ JavaScript for development. If using only JavaScript, you can change
 `src/index.ts` to `src/index.js`. If using only TypeScript, you can remove
 `"allowJs": true` from `tsconfig.json` and `"@babel/preset-react"` from
 `.babelrc` (and from "devDependencies" in `package.json`).
+

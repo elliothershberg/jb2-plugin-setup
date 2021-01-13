@@ -1,7 +1,7 @@
 {
   "plugins": [
     {
-      "name": "MyProject",
+      "name": "jbrowse-plugin-setup",
       "url": "http://localhost:9000/dist/jbrowse-plugin-my-project.umd.development.js"
     }
   ]
