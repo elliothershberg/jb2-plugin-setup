@@ -1149,8 +1149,9 @@
   resolved "https://registry.yarnpkg.com/@librpc/ee/-/ee-1.0.4.tgz#ce73a36279dc4cf93efa43f7e3564ec165947522"
   integrity sha512-vhPlbRwAKQC80h0k74tsOkMKIidZtqlFSOHRzCvC8n7Va9rzMDwpG26Pm84dAt0ZuGK0g1UEfPzxDiYo9ZQBrg==
 
-"@librpc/web@github:rbuels/librpc-web#737bb9706762a52a87169a12c9b59fb241febab0":
+"@librpc/web@rbuels/librpc-web#737bb9706762a52a87169a12c9b59fb241febab0":
   version "1.1.0"
+  uid "737bb9706762a52a87169a12c9b59fb241febab0"
   resolved "https://codeload.github.com/rbuels/librpc-web/tar.gz/737bb9706762a52a87169a12c9b59fb241febab0"
   dependencies:
     "@librpc/ee" "1.0.4"
@@ -7373,9 +7374,9 @@ table@^5.2.3:
     string-width "^3.0.0"
 
 tar@^4:
-  version "4.4.13"
-  resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
-  integrity sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==
+  version "4.4.15"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.15.tgz#3caced4f39ebd46ddda4d6203d48493a919697f8"
+  integrity sha512-ItbufpujXkry7bHH9NpQyTXPbJ72iTlXgkBAYsAjDXk3Ds8t/3NfO5P4xZGy7u+sYuQUbimgzswX4uQIEeNVOA==
   dependencies:
     chownr "^1.1.1"
     fs-minipass "^1.2.5"
