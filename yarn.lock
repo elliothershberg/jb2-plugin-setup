@@ -1149,8 +1149,9 @@
   resolved "https://registry.yarnpkg.com/@librpc/ee/-/ee-1.0.4.tgz#ce73a36279dc4cf93efa43f7e3564ec165947522"
   integrity sha512-vhPlbRwAKQC80h0k74tsOkMKIidZtqlFSOHRzCvC8n7Va9rzMDwpG26Pm84dAt0ZuGK0g1UEfPzxDiYo9ZQBrg==
 
-"@librpc/web@github:rbuels/librpc-web#737bb9706762a52a87169a12c9b59fb241febab0":
+"@librpc/web@rbuels/librpc-web#737bb9706762a52a87169a12c9b59fb241febab0":
   version "1.1.0"
+  uid "737bb9706762a52a87169a12c9b59fb241febab0"
   resolved "https://codeload.github.com/rbuels/librpc-web/tar.gz/737bb9706762a52a87169a12c9b59fb241febab0"
   dependencies:
     "@librpc/ee" "1.0.4"
@@ -2700,9 +2701,9 @@ decamelize@^1.1.0, decamelize@^1.1.2, decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 decompress-response@^4.2.0:
   version "4.2.1"
